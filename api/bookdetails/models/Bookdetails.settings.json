@@ -1,0 +1,33 @@
+{
+  "connection": "default",
+  "collectionName": "bookdetails",
+  "info": {
+    "name": "bookdetails",
+    "description": ""
+  },
+  "options": {
+    "timestamps": true
+  },
+  "attributes": {
+    "language": {
+      "type": "string"
+    },
+    "publishedyear": {
+      "type": "integer"
+    },
+    "pages": {
+      "type": "integer"
+    },
+    "Description": {
+      "default": "",
+      "type": "text"
+    },
+    "price": {
+      "type": "decimal"
+    },
+    "book": {
+      "model": "book",
+      "via": "bookdetail"
+    }
+  }
+}

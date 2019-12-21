@@ -1,0 +1,21 @@
+{
+  "defaultConnection": "default",
+  "connections": {
+    "default": {
+      "connector": "strapi-hook-mongoose",
+      "settings": {
+        "client": "mongo",
+        "host": "cluster0-aumvh.mongodb.net",
+        "url":"mongodb+srv://kolamala:Jan@1234@cluster0-aumvh.mongodb.net/test?retryWrites=true&w=majority",
+        "port": 27017,
+        "database": "server",
+        "username": "kolamala",
+        "password": "Jan@1234",
+        "srv": true
+      },
+      "options": {
+        "ssl": true
+      }
+    }
+  }
+}
